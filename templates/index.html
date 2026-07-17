@@ -1,0 +1,540 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- SEO Meta -->
+    <title>Anuj Kumar | Python AI/ML Developer</title>
+    <meta name="description" content="Anuj Kumar — Python Developer and AI/ML Engineer building intelligent applications using Flask, Machine Learning, Deep Learning, Computer Vision, and Large Language Models.">
+    <meta name="author" content="Anuj Kumar">
+    <meta name="keywords" content="Anuj Kumar, Python Developer, AI Engineer, Machine Learning, Flask, Deep Learning, Portfolio">
+
+    <!-- Open Graph (LinkedIn / WhatsApp / Facebook link previews) -->
+    <meta property="og:title" content="Anuj Kumar | Python AI/ML Developer">
+    <meta property="og:description" content="Python Developer and AI/ML Engineer building intelligent applications with Flask, ML, Deep Learning, and LLMs.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ url_for('static', filename='images/anujkumar.jpeg', _external=True) }}">
+    <meta property="og:url" content="">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Anuj Kumar | Python AI/ML Developer">
+    <meta name="twitter:description" content="Python Developer and AI/ML Engineer building intelligent applications with Flask, ML, Deep Learning, and LLMs.">
+    <meta name="twitter:image" content="{{ url_for('static', filename='images/anujkumar.jpeg', _external=True) }}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="{{ url_for('static', filename='images/anujkumar.jpeg') }}">
+
+    <!-- Stylesheets -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#" class="logo">Anuj Kumar</a>
+
+            <!-- Hamburger Toggle Button -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+
+        <div class="hero-text">
+
+            <h3>Hey, I'm Anuj Kumar</h3>
+
+            <h1>Welcome to <span>My Portfolio</span></h1>
+
+            <h2>Python Developer | AI/ML Engineer</h2>
+
+            <p>
+                I build AI-powered applications using Python, Flask,
+                Machine Learning, Deep Learning, Computer Vision,
+                and Large Language Models to solve real-world problems.
+            </p>
+
+            <a href="{{ url_for('static', filename='resume/AnujKumar.pdf') }}"
+               download="Anuj_Kumar_Resume.pdf"
+               class="btn">
+                📄 Download Resume
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="{{ url_for('static', filename='images/anujkumar.jpeg') }}"
+                 alt="Anuj Kumar - Python AI/ML Developer"  width="320" height="380">
+        </div>
+
+    </section>
+
+
+    <section id="about">
+
+        <h2 class="section-title">ABOUT <span>ME</span></h2>
+
+        <div class="about-container">
+
+            <div class="about-content">
+                <p>
+                    Driven by a passion for Artificial Intelligence and software
+                    development, I specialize in building intelligent applications
+                    using Python, Machine Learning, Deep Learning, Computer Vision,
+                    and Generative AI. I enjoy solving real-world challenges by
+                    developing scalable, efficient, and user-focused solutions while
+                    continuously learning emerging technologies and industry best
+                    practices.
+                </p>
+            </div>
+
+            <div class="about-image">
+                <img src="{{ url_for('static', filename='images/anujkumar.jpeg') }}"
+                     alt="Anuj Kumar"  width="290" height="290">
+
+                <a href="#contact" class="btn about-btn">
+                    Contact Me
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="skills" class="skills-section" >
+
+        <h2 class="section-title">MY <span>SKILLS</span></h2>
+
+        <div class="skills-category">
+    <h3 class="skill-category-title">💻 Programming Languages</h3>
+</div>
+
+<div class="skills-container">
+
+    <div class="skill-card">
+        <i class="devicon-python-plain colored"></i>
+        <h3>Python</h3>
+        <p>Writing clean, efficient, and object-oriented Python applications.</p>
+    </div>
+
+    <div class="skill-card">
+        <i class="devicon-javascript-plain colored"></i>
+        <h3>JavaScript</h3>
+        <p>Adding interactivity and dynamic functionality to websites.</p>
+    </div>
+
+    <div class="skill-card">
+        <i class="devicon-html5-plain colored"></i>
+        <h3>HTML5</h3>
+        <p>Creating semantic and responsive web page structures.</p>
+    </div>
+
+    <div class="skill-card">
+        <i class="devicon-css3-plain colored"></i>
+        <h3>CSS3</h3>
+        <p>Designing modern, responsive, and attractive user interfaces.</p>
+    </div>
+
+    <div class="skill-card">
+        <i class="devicon-mysql-plain colored"></i>
+        <h3>SQL</h3>
+        <p>Writing efficient SQL queries and managing relational data.</p>
+    </div>
+
+</div>
+
+<div class="skills-category">
+    <h3 class="skill-category-title">⚡ Frameworks & Libraries</h3>
+</div>
+
+<div class="skills-container">
+
+    <div class="skill-card">
+        <i class="devicon-flask-original"></i>
+        <h3>Flask</h3>
+        <p>Developing secure web applications and REST APIs.</p>
+    </div>
+
+    <div class="skill-card">
+        <i class="devicon-fastapi-plain colored"></i>
+        <h3>FastAPI</h3>
+        <p>Building high-performance REST APIs.</p>
+    </div>
+
+    <div class="skill-card">
+        <i class="devicon-streamlit-plain colored"></i>
+        <h3>Streamlit</h3>
+        <p>Creating interactive AI and data science web applications.</p>
+    </div>
+
+    <div class="skill-card">
+        <i class="devicon-scikitlearn-plain colored"></i>
+        <h3>Scikit-learn</h3>
+        <p>Developing machine learning models and recommendation systems.</p>
+    </div>
+
+    <div class="skill-card">
+        <i class="devicon-pandas-original"></i>
+        <h3>Pandas</h3>
+        <p>Data cleaning, preprocessing, and analysis.</p>
+    </div>
+
+    <div class="skill-card">
+        <i class="devicon-numpy-original colored"></i>
+        <h3>NumPy</h3>
+        <p>Numerical computing and mathematical operations.</p>
+    </div>
+
+</div>
+
+<div class="skills-category">
+    <h3 class="skill-category-title">🗄️ Databases</h3>
+</div>
+
+<div class="skills-container">
+
+    <div class="skill-card">
+        <i class="devicon-mysql-plain colored"></i>
+        <h3>MySQL</h3>
+        <p>Managing relational databases and database design.</p>
+    </div>
+
+    <div class="skill-card">
+        <i class="devicon-sqlite-plain colored"></i>
+        <h3>SQLite</h3>
+        <p>Lightweight relational database for application development.</p>
+    </div>
+
+</div>
+
+<div class="skills-category">
+    <h3 class="skill-category-title">🛠️ Tools & Technologies</h3>
+</div>
+
+<div class="skills-container">
+
+    <div class="skill-card">
+        <i class="devicon-git-plain colored"></i>
+        <h3>Git</h3>
+        <p>Version control, branching, and collaborative development.</p>
+    </div>
+
+    <div class="skill-card">
+        <i class="devicon-github-original"></i>
+        <h3>GitHub</h3>
+        <p>Project hosting, collaboration, and version management.</p>
+    </div>
+
+    <div class="skill-card">
+        <i class="fas fa-plug"></i>
+        <h3>REST APIs</h3>
+        <p>Designing and integrating RESTful web services.</p>
+    </div>
+
+    <div class="skill-card">
+        <i class="devicon-jupyter-plain colored"></i>
+        <h3>Jupyter Notebook</h3>
+        <p>Developing and testing AI/ML workflows.</p>
+    </div>
+
+    <div class="skill-card">
+        <i class="devicon-vscode-plain colored"></i>
+        <h3>VS Code</h3>
+        <p>Primary IDE for Python and web development.</p>
+    </div>
+
+</div>
+
+    </section>
+
+
+    <section id="education">
+
+        <h2 class="section-title">MY <span>EDUCATION</span></h2>
+
+        <div class="education-container">
+
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <h3>Master of Computer Applications</h3>
+                <h4>Himachal Pradesh Technical University</h4>
+                <p class="edu-year">2024 – 2026</p>
+                <p class="edu-grade">CGPA : <span>8.3</span></p>
+            </div>
+
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>Bachelor of Computer Applications</h3>
+                <h4>Himachal Pradesh University</h4>
+                <p class="edu-year">2021 – 2024</p>
+                <p class="edu-grade">CGPA : <span>7.4</span></p>
+            </div>
+
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-school"></i>
+                </div>
+                <h3>Senior Secondary (12th)</h3>
+                <h4>Govt. Sen. Sec. School Didwin</h4>
+                <p class="edu-year">2020 – 2021</p>
+                <p class="edu-grade">Percentage : <span>74%</span></p>
+            </div>
+
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <h3>Secondary (10th)</h3>
+                <h4>Govt. Sen. Sec. School Didwin</h4>
+                <p class="edu-year">2018 – 2019</p>
+                <p class="edu-grade">Percentage : <span>67%</span></p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="projects">
+
+        <h2 class="section-title">MY <span>PROJECTS</span></h2>
+
+        <div class="projects-container">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+
+                <div class="project-icon">
+                    <i class="fas fa-microphone-alt"></i>
+                </div>
+
+                <h3>Voice Campus Helpdesk</h3>
+
+                <p>
+                    AI-powered voice assistant that answers campus-related queries
+                    using Speech Recognition, Text-to-Speech, Flask, and MySQL.
+                </p>
+
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>Flask</span>
+                    <span>MySQL</span>
+                    <span>JavaScript</span>
+                </div>
+
+               <div class="project-buttons">
+    <a href="https://github.com/AnujKumar0109/VOICE_CAMPUS_HELPDESK" target="_blank" rel="noopener noreferrer">
+        GitHub
+    </a>
+
+    <a href=" https://voice-campus-helpdesk.onrender.com" target="_blank" rel="noopener noreferrer">
+    Live Demo
+</a>
+</div>
+
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+
+                <div class="project-icon">
+                    <i class="fas fa-film"></i>
+                </div>
+
+                <h3>Movie Recommendation System</h3>
+
+                <p>
+                    Content-based recommendation system built using Machine Learning,
+                    Pandas, Scikit-learn, Streamlit, and TMDB API.
+                </p>
+
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>Streamlit</span>
+                    <span>Pandas</span>
+                    <span>Scikit-learn</span>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="https://github.com/AnujKumar0109" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://github.com/AnujKumar0109" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                </div>
+
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+
+                <div class="project-icon">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+
+                <h3>AI Resume Analyzer</h3>
+
+                <p>
+                    Resume screening system using NLP and Machine Learning to
+                    analyze resumes and provide ATS-style scoring.
+                </p>
+
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>Flask</span>
+                    <span>NLP</span>
+                    <span>Machine Learning</span>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="https://github.com/AnujKumar0109" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://github.com/AnujKumar0109" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="experience">
+
+        <h2 class="section-title">WORK <span>EXPERIENCE</span></h2>
+
+        <div class="experience-container">
+
+            <div class="experience-card">
+
+                <div class="experience-header">
+
+                    <div class="experience-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+
+                    <div>
+                        <h3>Python AI Intern</h3>
+                        <h4>Excellence Technology</h4>
+                        <p class="experience-duration">
+                            <i class="fas fa-calendar-alt"></i>
+                            January 2026 – June 2026
+                        </p>
+                    </div>
+
+                </div>
+
+                <p class="experience-description">
+                    Worked on AI-powered web applications using Python, Flask,
+                    Machine Learning, Large Language Models, and REST APIs while
+                    collaborating on real-world development projects.
+                </p>
+
+                <ul class="experience-list">
+                    <li>Developed Flask web applications and RESTful APIs.</li>
+                    <li>Built AI applications using Machine Learning, Deep Learning, and LLMs.</li>
+                    <li>Performed web scraping using BeautifulSoup, Requests, and Pandas.</li>
+                    <li>Integrated MySQL databases with Flask applications.</li>
+                    <li>Used Git and GitHub for version control and collaboration.</li>
+                    <li>Developed projects like Voice Campus Helpdesk and Movie Recommendation System.</li>
+                </ul>
+
+                <div class="experience-tech">
+                    <span>Python</span>
+                    <span>Flask</span>
+                    <span>Machine Learning</span>
+                    <span>LLMs</span>
+                    <span>MySQL</span>
+                    <span>Git</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="contact">
+    <h2 class="section-title">CONTACT <span>ME</span></h2>
+
+    <p class="contact-intro">
+        Have a project in mind or want to collaborate? I'm always open to
+        internships, freelance work, and new opportunities. Let's connect!
+    </p>
+
+    <div class="contact-grid">
+
+        <a href="mailto:anujkumarr0109@gmail.com" class="contact-card">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <h4>Email</h4>
+            <p>anujkumarr0109@gmail.com</p>
+        </a>
+
+        <a href="tel:+917876588438" class="contact-card">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <h4>Phone</h4>
+            <p>+91 78765 88438</p>
+        </a>
+
+        <a href="https://www.linkedin.com/in/anuj-kumar-757725359"
+           target="_blank" rel="noopener noreferrer" class="contact-card">
+            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+            <h4>LinkedIn</h4>
+            <p>@anuj-kumar</p>
+        </a>
+
+        <a href="https://github.com/AnujKumar0109"
+           target="_blank" rel="noopener noreferrer" class="contact-card">
+            <div class="contact-icon"><i class="fab fa-github"></i></div>
+            <h4>GitHub</h4>
+            <p>@AnujKumar0109</p>
+        </a>
+
+    </div>
+</section>
+
+
+    <footer>
+    <div class="footer-content">
+        <div class="footer-brand">
+            <h3>Anuj Kumar</h3>
+            <p>Python Developer | AI/ML Engineer</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Anuj Kumar | All Rights Reserved</p>
+    </div>
+</footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+
+</html>
+
