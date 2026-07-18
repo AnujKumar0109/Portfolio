@@ -146,13 +146,12 @@ Flask>=2.3
 
 ---
 
-## 💼 Featured Projects
+| Project                         | Description                                                                                                                                                  | Stack                                                     |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------- |
+| **Voice Campus Helpdesk**       | AI-powered voice assistant that answers campus-related queries using Speech Recognition, Text-to-Speech, Flask, and MySQL.                                   | Python, Flask, MySQL, Speech Recognition, Text-to-Speech  |
+| **Movie Recommendation System** | Content-based recommendation system that delivers personalized movie suggestions using Machine Learning and the TMDB dataset.                                | Python, Streamlit, Pandas, Scikit-learn, Machine Learning |
+| **Personal Portfolio Website**  | Fully responsive portfolio website showcasing projects, technical skills, education, certifications, achievements, and resume with a modern, interactive UI. | HTML5, CSS3, JavaScript, Flask, Responsive Design         |
 
-| Project | Description | Stack |
-|---|---|---|
-| **Voice Campus Helpdesk** | AI-powered voice assistant answering campus queries via Speech Recognition & TTS | Python, Flask, MySQL, JavaScript |
-| **Movie Recommendation System** | Content-based recommender using the TMDB API | Python, Streamlit, Pandas, Scikit-learn |
-| **AI Resume Analyzer** | NLP-driven resume screening with ATS-style scoring | Python, Flask, NLP, Machine Learning |
 
 ---
 
