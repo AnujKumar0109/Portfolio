@@ -4,7 +4,7 @@
 
 ### Python Developer | AI/ML Engineer
 
-A modern, fully responsive portfolio built with **Flask**, showcasing projects, skills, education, and experience through a sleek dark-themed interface with smooth animations and glowing accents.
+A modern, fully responsive portfolio built with **Flask**, showcasing projects, skills, education, and experience through a sleek dark-themed interface with smooth animations and interactive UI.
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-Backend-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
@@ -13,13 +13,13 @@ A modern, fully responsive portfolio built with **Flask**, showcasing projects, 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey?style=flat)](#-license)
 
-[Live Demo](#) · [Report Bug](#-contact) · [Request Feature](#-contact)
+[🌐 Live Demo](YOUR_LIVE_DEMO_URL) • [🐞 Report Bug](#-contact) • [💡 Request Feature](#-contact)
 
 </div>
 
 ---
 
-## 📖 Table of Contents
+# 📖 Table of Contents
 
 - [About](#-about)
 - [Features](#-features)
@@ -27,6 +27,7 @@ A modern, fully responsive portfolio built with **Flask**, showcasing projects, 
 - [Project Structure](#-project-structure)
 - [Getting Started](#-getting-started)
 - [Sections Overview](#-sections-overview)
+- [Screenshots](#-screenshots)
 - [Featured Projects](#-featured-projects)
 - [Responsive Design](#-responsive-design)
 - [Roadmap](#-roadmap)
@@ -35,165 +36,241 @@ A modern, fully responsive portfolio built with **Flask**, showcasing projects, 
 
 ---
 
-## 📌 About
+# 📌 About
 
-This repository contains the source code for my personal portfolio — a single-page web application built with **Flask** on the backend and **vanilla HTML/CSS/JS** on the frontend. It's designed to present my work as a Python Developer and AI/ML Engineer in a clean, professional, and visually engaging way, with zero frontend frameworks or build tooling required.
-
----
-
-## ✨ Features
-
-- 🎨 **Modern dark UI** — glassmorphism-style cards, gradient glows, and a cohesive blue/gold accent palette
-- 📱 **Fully responsive** — unified `auto-fit` CSS Grid layout adapts every card section (Skills, Projects, Experience, Education, Contact) smoothly from desktop down to small phones
-- 🎬 **Scroll animations** — sections fade/slide into view as the user scrolls
-- 🍔 **Mobile navigation** — animated hamburger menu with smooth open/close transitions
-- ⬆️ **Back-to-top button** — appears after scrolling, smooth-scrolls back to the hero section
-- 📄 **One-click resume download** — serves a PDF resume directly from Flask static files
-- 🔍 **SEO-optimized** — proper meta tags, Open Graph, and Twitter Card support for rich link previews on LinkedIn/WhatsApp/social platforms
-- ♿ **Accessibility-conscious** — visible focus states, semantic HTML, and `prefers-reduced-motion` support
-- 🖼️ **Favicon & branding** — consistent identity across browser tab and social shares
+This repository contains the source code for my personal portfolio website developed using **Flask**, **HTML5**, **CSS3**, and **JavaScript**. It showcases my technical skills, projects, education, certifications, experience, and achievements in a clean, responsive, and professional interface.
 
 ---
 
-## 🛠️ Tech Stack
+# ✨ Features
+
+- 🎨 Modern and responsive UI
+- 📱 Mobile-friendly design
+- 🎬 Smooth scrolling animations
+- 🍔 Responsive navigation menu
+- ⬆️ Back-to-top button
+- 📄 Resume download
+- 🚀 Project showcase
+- 💼 Experience section
+- 🎓 Education section
+- 📞 Contact section
+- 🔍 SEO optimized
+- ♿ Accessible design
+
+---
+
+# 🛠️ Tech Stack
 
 | Layer | Technology |
-|---|---|
-| **Backend** | Python, Flask (Jinja2 templating) |
-| **Frontend** | HTML5, CSS3 (Grid & Flexbox, no frameworks) |
-| **Interactivity** | Vanilla JavaScript |
-| **Fonts** | [Sora](https://fonts.google.com/specimen/Sora) (headings) + [Inter](https://fonts.google.com/specimen/Inter) (body) via Google Fonts |
-| **Icons** | Font Awesome 6, Devicon |
-| **Deployment** | _(e.g. Render / Railway / PythonAnywhere — update with your host)_ |
+|-------|------------|
+| Backend | Python, Flask |
+| Frontend | HTML5, CSS3 |
+| Interactivity | JavaScript |
+| Icons | Font Awesome, Devicon |
+| Fonts | Sora, Inter |
+| Deployment | Render |
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
-```
+```text
 portfolio/
 │
-├── app.py                     # Flask application entry point & routes
-├── requirements.txt           # Python dependencies
+├── app.py
+├── requirements.txt
 │
 ├── static/
 │   ├── css/
-│   │   └── style.css          # Main stylesheet (responsive grid system, theming)
 │   ├── js/
-│   │   └── script.js          # Nav toggle, scroll reveal, back-to-top logic
 │   ├── images/
-│   │   └── anujkumar.jpeg     # Profile photo / favicon source
+│   ├── screenshots/
+│   │   ├── home.png
+│   │   ├── about.png
+│   │   ├── skills1.png
+│   │   ├── skills2.png
+│   │   ├── education.png
+│   │   ├── experience.png
+│   │   ├── projects.png
+│   │   └── contact.png
 │   └── resume/
-│       └── AnujKumar.pdf      # Downloadable resume
 │
 └── templates/
-    └── index.html             # Single-page site template
+    └── index.html
 ```
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
-### Prerequisites
-- Python 3.8+
-- pip (Python package manager)
-
-### Installation
+## Clone Repository
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/AnujKumar0109/portfolio.git
-cd portfolio
+git clone https://github.com/AnujKumar0109/Portfolio.git
+```
 
-# 2. (Optional but recommended) Create a virtual environment
+## Navigate
+
+```bash
+cd Portfolio
+```
+
+## Create Virtual Environment
+
+```bash
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+```
 
-# 3. Install dependencies
+Windows
+
+```bash
+venv\Scripts\activate
+```
+
+Linux / macOS
+
+```bash
+source venv/bin/activate
+```
+
+## Install Dependencies
+
+```bash
 pip install -r requirements.txt
-# or, if there's no requirements.txt yet:
-pip install flask
+```
 
-# 4. Run the app
+## Run
+
+```bash
 python app.py
 ```
 
-Then open your browser and go to:
+Visit:
 
 ```
 http://127.0.0.1:5000
 ```
 
-### Suggested `requirements.txt`
-
-```
-Flask>=2.3
-```
-
 ---
 
-## 📄 Sections Overview
+# 📄 Sections Overview
 
 | Section | Description |
-|---|---|
-| **Home** | Hero intro, role tagline, and resume download CTA |
-| **About** | Short bio with profile photo |
-| **Skills** | Programming languages, frameworks, databases, and tools — grouped by category with responsive card grid |
-| **Education** | Academic history with institution, years, and CGPA/percentage |
-| **Projects** | Highlighted builds with tech-stack tags and GitHub/live demo links |
-| **Experience** | Internship/work history with responsibilities and technologies used |
-| **Contact** | Email, phone, LinkedIn, and GitHub — presented as interactive cards |
+|---------|-------------|
+| Home | Hero section with introduction and resume |
+| About | Short introduction |
+| Skills | Programming languages, frameworks and tools |
+| Education | Academic qualifications |
+| Experience | Internship and professional experience |
+| Projects | Featured projects |
+| Contact | Contact information |
 
 ---
 
-| Project                         | Description                                                                                                                                                  | Stack                                                     |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------- |
-| **Voice Campus Helpdesk**       | AI-powered voice assistant that answers campus-related queries using Speech Recognition, Text-to-Speech, Flask, and MySQL.                                   | Python, Flask, MySQL, Speech Recognition, Text-to-Speech  |
-| **Movie Recommendation System** | Content-based recommendation system that delivers personalized movie suggestions using Machine Learning and the TMDB dataset.                                | Python, Streamlit, Pandas, Scikit-learn, Machine Learning |
-| **Personal Portfolio Website**  | Fully responsive portfolio website showcasing projects, technical skills, education, certifications, achievements, and resume with a modern, interactive UI. | HTML5, CSS3, JavaScript, Flask, Responsive Design         |
+# 📸 Screenshots
 
+## 🏠 Home
+
+![Home](static/screenshots/home.png)
 
 ---
 
-## 📱 Responsive Design
+## 👤 About
 
-All card-based sections (Skills, Projects, Experience, Education, Contact) share a single unified responsive rule:
+![About](static/screenshots/about.png)
+
+---
+
+## 🛠️ Skills
+
+### Programming Languages & Frameworks
+
+![Skills 1](static/screenshots/skills1.png)
+
+### Tools & Technologies
+
+![Skills 2](static/screenshots/skills2.png)
+
+---
+
+## 🎓 Education
+
+![Education](static/screenshots/education.png)
+
+---
+
+## 💼 Experience
+
+![Experience](static/screenshots/experience.png)
+
+---
+
+## 🚀 Projects
+
+![Projects](static/screenshots/projects.png)
+
+---
+
+## 📞 Contact
+
+![Contact](static/screenshots/contact.png)
+
+---
+
+# 🚀 Featured Projects
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| **Voice Campus Helpdesk** | AI-powered voice assistant that answers campus-related queries using Speech Recognition, Text-to-Speech, Flask, and MySQL. | Python, Flask, MySQL, Speech Recognition, Text-to-Speech |
+| **Movie Recommendation System** | Content-based recommendation system that delivers personalized movie suggestions using Machine Learning and an interactive Streamlit interface. | Python, Streamlit, Pandas, Scikit-learn, Machine Learning |
+| **Personal Portfolio Website** | Fully responsive portfolio website showcasing projects, technical skills, education, certifications, achievements, and resume with a modern interactive interface. | HTML5, CSS3, JavaScript, Flask, Responsive Design |
+
+---
+
+# 📱 Responsive Design
+
+The portfolio uses CSS Grid with:
 
 ```css
 grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 ```
 
-This lets the grid automatically adjust the number of columns based on available screen width — no manual breakpoint overrides needed — ensuring a consistent card layout experience from large desktops down to small mobile screens.
+This automatically adjusts the layout for desktops, tablets, and mobile devices.
 
 ---
 
-## 🗺️ Roadmap
+# 🗺️ Roadmap
 
-- [ ] Add dark/light theme toggle
-- [ ] Add a blog section for AI/ML write-ups
-- [ ] Integrate a contact form with email backend (Flask-Mail)
-- [ ] Add project filtering by tech stack
-- [ ] Deploy with CI/CD pipeline
+- [ ] Dark / Light Theme
+- [ ] Blog Section
+- [ ] Contact Form Backend
+- [ ] Project Filters
+- [ ] CI/CD Deployment
 
 ---
 
-## 📬 Contact
+# 📬 Contact
 
 **Anuj Kumar**
 
-- 📧 Email: [anujkumarr0109@gmail.com](mailto:anujkumarr0109@gmail.com)
-- 📱 Phone: +91 78765 88438
-- 💼 LinkedIn: [anuj-kumar](https://www.linkedin.com/in/anuj-kumar-757725359)
-- 💻 GitHub: [@AnujKumar0109](https://github.com/AnujKumar0109)
+📧 Email: anujkumarr0109@gmail.com
+
+📱 Phone: +91 7876588438
+
+💼 LinkedIn: https://www.linkedin.com/in/anuj-kumar-757725359
+
+💻 GitHub: https://github.com/AnujKumar0109
 
 ---
 
-## 📜 License
+# 📜 License
 
-© 2025 Anuj Kumar. All rights reserved.
+© 2025 Anuj Kumar. All Rights Reserved.
+
+---
 
 <div align="center">
 
-**⭐ If you like this portfolio, consider giving the repo a star!**
+### ⭐ If you like this project, please consider giving it a star!
 
 </div>
