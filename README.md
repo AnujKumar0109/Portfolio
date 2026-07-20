@@ -13,7 +13,8 @@ A modern, fully responsive portfolio built with **Flask**, showcasing projects, 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey?style=flat)](#-license)
 
-[🌐 Live Demo](YOUR_LIVE_DEMO_URL) • [🐞 Report Bug](#-contact) • [💡 Request Feature](#-contact)
+[🌐 Live Demo](https://portfolio-ten-steel-7c88wqa61u.vercel.app
+) • [🐞 Report Bug](#-contact) • [💡 Request Feature](#-contact)
 
 </div>
 
